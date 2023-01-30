@@ -1,1 +1,23 @@
 hello to the universe
+
+git sommand sets 
+set 1
+git init
+git status
+git add .
+git diff - to show differences if there's anything different between working dir and staging
+git commit -m"firstcommit"
+create remote remo in web applicaiton
+git branch -M name of branch
+git remote add origin Url.git
+git push -u origin branch name
+git clone URL.git (to pull entire folder to local repo, copy in remote remo n paste url here)
+
+set 2
+git pull- to pull each command/ single code to local
+git log - to see total number of commits and statuses
+git show HEAD - to show details of last commit (latest command/code) only
+this has 3 cases:
+
+
+
