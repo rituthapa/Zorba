@@ -19,5 +19,19 @@ git log - to see total number of commits and statuses
 git show HEAD - to show details of last commit (latest command/code) only
 this has 3 cases:
 
+case 1:
+when you want to undo changes from working directory to be same as your last commit in your local machine
+git checkout HEAD filename
+
+case 2:
+when you write some code in working directory and added to staging, but now you want to undo from staging to be same as last commit; 
+git reset HEAD filename
+
+to see the difference now if staging is like last commit and woring directory is same as the new changes; 
+git diff
+
+case 3:
+when you made new changes to working directory and added it to staging and commit it to local machine; but realized you dont want topush this new changess and want the previous commit as it is and want to undo new changes from commit ; you have to reset this last commit as your previous commit; you write git rest and the first 7 characters from the commit that was before your Head(last) commit
+git reset 4fde34f
 
 
